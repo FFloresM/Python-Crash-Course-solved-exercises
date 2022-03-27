@@ -36,6 +36,7 @@ print(guest_list)
 print(f"{guest_list[0]} you're still invited.")
 print(f"{guest_list[1]} you're still invited.")
 
+#be careful the order of you call to del
 del guest_list[1]
 del guest_list[0]
 
