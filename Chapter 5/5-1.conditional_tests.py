@@ -25,9 +25,8 @@ print("Is number multiple of 3? I predict False.")
 print(number % 3 == 0)
 
 house = 'house'
-print("Is house == 'home'? I predict Fasle.")
+print("Is house == 'home'? I predict False.")
 print(house == 'home')
 
 print("Is house a string? I predict True.")
-print(type(house))
-print(type(house) == 'str')
+print(type(house) == str)
